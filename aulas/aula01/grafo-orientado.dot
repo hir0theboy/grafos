@@ -1,0 +1,15 @@
+digraph G2 {
+    a [shape="circle" color="blue"]
+    b [shape="circle" color="blue"]
+    c [shape="circle" color="blue"]
+    d [shape="circle" color="blue"]
+    e [shape="circle" color="blue"]
+    f [shape="circle" color="blue"]
+    a->b
+    a->c
+    b->d
+    c->d
+    c->e
+    d->f
+    e->f
+}
