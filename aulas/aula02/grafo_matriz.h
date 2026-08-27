@@ -13,8 +13,4 @@ void inserir_aresta(GrafoMatriz *grafo, int u, int v);
 void inserir_arco(GrafoMatriz *grafo, int u, int v);
 void exibir_matriz(GrafoMatriz *grafo);
 
-
-
-
-
 #endif
