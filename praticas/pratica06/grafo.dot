@@ -1,0 +1,17 @@
+graph G {
+    rankdir=LR;
+    splines=line;
+    node [shape=circle];
+    { rank=same; B; C; }
+    { rank=same; D; E; }
+    A -- C [label="2"];
+    A -- B [label="4"];
+    B -- E [label="8"];
+    B -- D [label="5"];
+    B -- C [label="1"];
+    C -- E [label="10"];
+    C -- D [label="4"];
+    D -- F [label="1"];
+    D -- E [label="2"];
+    E -- F [label="3"];
+}
